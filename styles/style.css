@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.player-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+}
+
+.player-box{
+    height: 100px;
+    width: 100px;
+}
+
+.player-box:hover{
+    cursor: pointer;
+}
+
+
