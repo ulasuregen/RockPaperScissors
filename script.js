@@ -149,5 +149,4 @@ function resetScores(){
             lock = false;
         }, 1000);
     }
-    console.log('Scores are controlled !');
 }
