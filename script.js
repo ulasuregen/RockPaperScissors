@@ -148,6 +148,6 @@ function resetScores(){
             playerText.innerHTML = userScore;
             lock = false;
         }, 1000);
-
     }
+    console.log('Scores are controlled !');
 }
