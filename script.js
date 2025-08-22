@@ -133,4 +133,21 @@ roundEnd = function(){
     }else{
         background.classList.add("draw");
     }
+
+    resetScores();
+}
+
+
+function resetScores(){
+    if(userScore == 3 || webScore == 3) {
+        lock = true;
+        setTimeout(() => {
+            userScore = 0;
+            webScore = 0;
+            webText.innerHTML = webScore;
+            playerText.innerHTML = userScore;
+            lock = false;
+        }, 1000);
+
+    }
 }
